@@ -1,0 +1,253 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: Arial, Helvetica;
+    background: #e9e9e9;
+}
+
+h2 {
+    color: rgb(196, 196, 196);
+}
+div.container-fluid {
+    color: white;
+}
+div.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+body header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+.grid-container{
+    width: 80%;
+    margin: 0%;
+    padding: 0%;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template: 1fr;
+    grid-auto-rows: 200px 100px 300px 200px;
+    grid-template-areas:
+    "head"
+    "nav"
+    "main"
+    "footer";
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.menu li{
+    display: inline;
+    text-align: center;
+    align-items: center;
+}
+
+.menu li {
+        float: left;
+    }
+
+.menu li a{
+        text-align: center;
+        padding: 10px 20px;
+        background-color: #dddddd;
+    }
+.menu li a{
+    background-color: #000000;
+    text-align: center;
+    align-items: center;
+    color: azure;
+    }
+
+.menu li a:hover{
+    background: #ff0000;
+}
+
+.titulo{
+    background-color: #000000;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.fondo{ 
+    background-image: url(../img/URU\ SIN\ FONDO\ 1.png);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloUno{
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+section div p{
+    margin: 5%;
+    padding: 10%;
+}
+.tituloDos{
+    color: rgb(0, 0, 0);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.tituloTres{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tituloTres{
+    position: fixed;
+    background-color: rgba(226, 206, 206, 0.479);
+    border-radius: 40px;
+    width: 300px;
+    right: 3%;
+    bottom: 45%;
+    text-align: center;
+    padding: 0px;
+    margin: 0%;
+    z-index: 1;
+}
+
+section p{ 
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div p{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div a{
+    display: inline-block;
+    justify-content: center;
+    }
+.mapa{
+    margin: 20%;
+    align-items: center;
+}
+.mapa h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px 150px;
+}
+.wpp{
+    margin-left: 10px;
+}
+.wpp a{
+    margin-right: 10px;
+}
+.foot{
+    margin: 20px;
+}
+.contedor h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.insta a{
+    margin-right:30px;
+    }
+
+div.logoInsta{
+    padding: 10px;
+}
+
+.tituloCuatro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tituloCuatro a{
+    padding: 10px;
+}
+.tituloCuatro  a{
+    text-align: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.acerca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acerca{
+    padding: 10px 20px;
+    background-color: #dddddd;
+}
+.acerca{
+    background-color: #000000;
+    text-align: center;
+    align-items: center;
+    color: azure;
+}
+.mapa{
+    display: grid;
+    align-items: center;
+}
+section div iframe{
+    display: grid;
+    align-items: center;
+    padding: 40px 20px 200px 200px;
+    margin-left: 18%;
+}
+.acercaDos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acercaDos{
+    padding: 10px 20px;
+    background-color: #dddddd;
+}
+.acercaDos{
+    background-color: #000000;
+    text-align: center;
+    align-items: center;
+    color: azure;
+}
+section .acerca{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px 10px;
+    background-color: #000000;
+}
+.listaDePrecios{
+    display: grid;
+    align-items: center;
+    padding: 40px 20px 100px 110px;
+    margin-left: 23%;
+}
+
